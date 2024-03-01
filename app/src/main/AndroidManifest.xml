@@ -13,6 +13,18 @@
         android:theme="@style/Theme.CalculadoraApp"
         tools:targetApi="31">
         <activity
+            android:name=".longitudConvert"
+            android:exported="false" />
+        <activity
+            android:name=".volumenConvert"
+            android:exported="false" />
+        <activity
+            android:name=".monedaConvert"
+            android:exported="false" />
+        <activity
+            android:name=".masaConvert"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

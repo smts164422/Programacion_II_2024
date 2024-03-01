@@ -1,4 +1,24 @@
 <resources>
-    <string name="app_name">calculadoraApp</string>
+    <string name="app_name">conversorUnidades</string>
+    <string-array name="spnMasaOpciones">
+        <item>Kilo-libras</item>
+        <item>Onza-gramos</item>
+        <item>Tonelada-kilo</item>
+    </string-array>
+    <string-array name="spnMonedaOpciones">
+        <item>Euro-dolar</item>
+        <item>Dolar-peso mexicano</item>
+        <item>Dolar-quetzal</item>
+    </string-array>
+    <string-array name="spnVolumenOpciones">
+        <item>Galon-litros</item>
+        <item>Litros-centimetros cubicos</item>
+        <item>Pulgadas cubicas-centimetros cubicos</item>
+    </string-array>
+    <string-array name="spnLongitudOpciones">
+        <item>Kilometro-milla</item>
+        <item>Metro-yarda</item>
+        <item>Centimetro-pulgada</item>
+    </string-array>
 
 </resources>
