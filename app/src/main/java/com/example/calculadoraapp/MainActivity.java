@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -98,9 +99,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
                 }catch (Exception e){
                     tempVal.setText(e.getMessage());
                 }
+                Toast.makeText(MainActivity.this,"Calculo realizado con exito", Toast.LENGTH_LONG);
 
 
 
@@ -112,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             }
+
 
 
         });
